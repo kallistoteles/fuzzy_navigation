@@ -1,6 +1,7 @@
 ## Fuzzy Navigation
 This is not something I uniquely created (what is?) or some crazy new stuff, but it changed how I fundamently move around in the terminal.
-And I use it extensively, so I hope you can take it, expand on it and make it your own.
+And I use it extensively, so I hope you can take it and make it your own.
+
 If you haven't already, check out all the cool [examples in the fzf wiki.](https://github.com/junegunn/fzf/wiki/examples)
 ## Concept
 Instead of tabbing your way to a file, catalog or program - find it super quick as a part of your command execution.
