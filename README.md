@@ -22,16 +22,12 @@ alias -g fp='$(pacman -Slq | fzf --multi --preview "pacman -Si {1}")'
 ```
 
 ## Usage examples
-`cd fd` change to any sub-directory under your homedir
-
-`less ff` read any file under your homedir tree
-
-`vi fc` search for any content and edit that specific file under current directory
-
-`sudo pacman -S fp` if someone could expand this to include the AUR - I would be greatful! :)
+* `cd fd` change to any sub-directory under your homedir
+* `less ff` read any file under your homedir tree
+* `vi fc` search for any content and edit that specific file under current directory
+* `sudo pacman -S fp` if someone could expand this to include the AUR - I would be greatful! :)
 
 ## Dependencies
-fzf
-
-zsh, or something that can work similarly as global alias in zsh
+* fzf
+* zsh, or something that can work similarly as global alias in zsh
 
