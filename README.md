@@ -2,8 +2,6 @@
 This is not something I uniquely created (what is?) or some crazy new stuff, but it changed how I fundamently move around in the terminal.
 And I use it extensively, so I hope you can take it and make it your own.
 
-( check out all the cool [examples in the fzf wiki.](https://github.com/junegunn/fzf/wiki/examples) )
-
 ## Concept
 Instead of tabbing your way to a file, catalog or program - find it super quick as a part of your command execution.
 
@@ -28,6 +26,8 @@ alias -g fp='$(pacman -Slq | fzf --multi --preview "pacman -Si {1}")'
 * `less ff` read any file under your homedir tree
 * `vi fc` search for any content and edit that specific file under current directory
 * `sudo pacman -S fp` if someone could expand this to include the AUR - I would be greatful! :)
+
+check out other nice [examples of fzf usage in their wiki.](https://github.com/junegunn/fzf/wiki/examples) )
 
 ## Dependencies
 * fzf
